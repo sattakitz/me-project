@@ -1,0 +1,31 @@
+.myprofile {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 80px;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+.mysocial {
+    display: flex;
+}
+
+.icon-item {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.item-img {
+    margin: auto;
+}
+
+.myname {
+    color: white;
+    margin-top: auto;
+}
+
+.myemail {
+    color: white;
+}
