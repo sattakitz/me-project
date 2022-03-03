@@ -1,3 +1,9 @@
+@media (max-width: 992px) {
+    .myprofile{
+        margin-top: 20px !important;
+    }
+    
+}
 .myprofile {
     text-align: center;
     font-size: 50px;
@@ -22,10 +28,10 @@
 }
 
 .myname {
-    color: white;
+    color: #fff;
     margin-top: auto;
 }
 
 .myemail {
-    color: white;
+    color: #fff;
 }

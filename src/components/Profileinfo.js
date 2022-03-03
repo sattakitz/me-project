@@ -10,12 +10,12 @@ function Profileinfo() {
             </div>
             <div >
                 <p className="myname">
-                    Sattapon Kamchu
+                   Name: Sattapon Kamchu
             </p>
             </div>
             <div className="myemail">
                 <p>
-                    Business: sattakitkamchu@gmail.com
+                    E-mail: sattakitkamchu@gmail.com
                 </p>
             </div>
             <div className="mysocial">

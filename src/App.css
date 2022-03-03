@@ -1,4 +1,4 @@
-.App {
+.container-fluid {
     text-align: start;
     background-color: #242425;
     height: 100vh;
@@ -14,13 +14,8 @@
     justify-content: center;
     font-size: calc(20px + 2vmin);
     color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Kanit", sans-serif !important;
 }
-
-/* 
-.App-link {
-    color: #61dafb;
-} */
 
 .App-logo {
     justify-content: center;
@@ -42,4 +37,11 @@
 
 .item-img {
     margin: auto;
+}
+
+@media (max-width: 992px) {
+    .app-grid {
+    display: flex !important;
+    flex-direction: column;
+}
 }
