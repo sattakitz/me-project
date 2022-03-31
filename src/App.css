@@ -1,47 +1,6 @@
 .container-fluid {
-    text-align: start;
-    background-color: #242425;
+    background-color: #000000;
     height: 100vh;
     width: 100%;
     overflow-x: hidden;
-}
-
-.App-header {
-    min-height: 20vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(20px + 2vmin);
-    color: white;
-    font-family: "Kanit", sans-serif !important;
-}
-
-.App-logo {
-    justify-content: center;
-    height: 60vmin;
-    pointer-events: none;
-}
-
-.app-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 16px;
-    max-width: 800px;
-    row-gap: 16px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 16px;
-    padding: 30px;
-}
-
-.item-img {
-    margin: auto;
-}
-
-@media (max-width: 992px) {
-    .app-grid {
-    display: flex !important;
-    flex-direction: column;
-}
 }
