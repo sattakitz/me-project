@@ -4,23 +4,9 @@
 }
 
 body {
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-  background-size: 400% 400%;
-  animation: gradient 15s ease infinite;
+  background: #0f0e0e;
   width: 100%;
   height: 100vh;
-}
-
-@keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
 }
 
 .img-me {
@@ -38,6 +24,51 @@ body {
 .icon-item {
   margin-right: 10px;
   cursor: pointer;
+  transition: width 2s;
+  transition-timing-function: cubic-bezier(0.1, 0.7, 1, 0.1);
+}
+.icon-item a:hover svg {
+  transform: scale(1.2);
+  opacity: 0.9;
+}
+
+.twitter a svg {
+  color: #1da1f2;
+  background: #fff;
+  border-radius: 0.5em;
+}
+.facebook a svg {
+  color: #1977f3;
+  background: #fff;
+  border-radius: 0.5em;
+}
+.instagram a svg {
+  background: -moz-linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  background: -webkit-linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  background: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  color: #fff;
+  border-radius: 0.3em;
 }
 
 .myname,
@@ -139,7 +170,6 @@ body {
 
 /* card */
 .item {
-  /* width: calc(94% / 1); */
   margin: 1%;
   float: left;
   overflow: hidden;
@@ -149,6 +179,9 @@ body {
   max-width: 100%;
   display: block;
   transition: all 0.5s ease;
+}
+.item:hover img {
+  opacity: 0.8;
 }
 
 .text_hove {
@@ -228,7 +261,6 @@ body {
 /* glitch */
 
 #app {
-  background: #000;
   margin: 0;
   padding: 0;
   position: relative;
@@ -249,7 +281,7 @@ body {
   position: relative;
   color: #fff;
   font-size: 4em;
-  letter-spacing: 0.5em;
+  letter-spacing: 0.1em;
   animation: glitch-skew 1s infinite linear alternate-reverse;
 }
 .glitch::before {
