@@ -8,6 +8,12 @@ body {
   width: 100%;
   height: 100vh;
 }
+.send_me {
+  color: #fff;
+}
+.send_me:hover {
+  color: rgb(236, 236, 236);
+}
 
 .img-me {
   text-align: center;
@@ -27,7 +33,8 @@ body {
   transition: width 2s;
   transition-timing-function: cubic-bezier(0.1, 0.7, 1, 0.1);
 }
-.icon-item a:hover svg {
+.icon-item a:hover svg,
+.icon-item a:hover img {
   transform: scale(1.2);
   opacity: 0.9;
 }
@@ -35,13 +42,20 @@ body {
 .twitter a svg {
   color: #1da1f2;
   background: #fff;
-  border-radius: 0.5em;
+  border-radius: 1em;
 }
+
 .facebook a svg {
   color: #1977f3;
   background: #fff;
-  border-radius: 0.5em;
+  border-radius: 1em;
 }
+
+.github a svg {
+  border-radius: 1em;
+  background-color: #fff;
+}
+
 .instagram a svg {
   background: -moz-linear-gradient(
     45deg,
